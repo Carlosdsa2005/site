@@ -1,0 +1,22 @@
+body
+{
+    padding: 0PX 300PX 0 300px;
+}
+
+
+
+   
+.inicio
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem; 
+
+}
+.inicio .texto
+{
+    max-width: 62rem;
+    flex: 1;
+}
+
