@@ -46,17 +46,13 @@ nav{
 
 main{
     padding: 0 250px 250px;
-    height: 86vh;
+   
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .inicio{
-    width: 800px;
-    font-size: 5;
-    margin: 0;
-    padding: 0;
+    display: flex;
     align-items: center;
-    left: 50%;
     height: 16vh;
 }
 .inicio img{
@@ -64,7 +60,9 @@ main{
     float: left;
     margin-right: 20px;
 }
-
+.inicio text{
+ 
+}
 .inicio h1{
 line-height: 24px;
 }
@@ -76,13 +74,21 @@ line-height: 24px;
 
 .feitos{
     display: flex;
+    
 }
 
 .feitos ul{
-    width: 50%;
-    border: 1px;
+    width: 500;
+    border: 2px solid black;
+    border-radius: 10%;
     letter-spacing: 3px;
     margin-left: 32px;
+    
+}
+
+.feitos ul:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px black;
 }
 
 table{
@@ -196,7 +202,8 @@ th, td {
 .redes li{
     letter-spacing: 3px;
     margin-left: 32px;
-    border-radius: 0;
+    border-radius: 300;
+   
 }
 
 
